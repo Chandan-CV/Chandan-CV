@@ -5,7 +5,7 @@
 
 - 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/chandan-cv-3320441b4/](https://www.linkedin.com/in/chandan-cv-3320441b4/)
 
-- 💬 Ask me about **reactJS, react-native, java, python**
+- 💬 Ask me about **reactJS, react-native, java, python, flutter, and firebase**
 
 - 📫 How to reach me **chandancvp@gmail.com**
 
