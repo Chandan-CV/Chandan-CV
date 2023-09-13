@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Chandan</h1>
-<h3 align="center">Developemnt and Robotics Enthusiast | love to meet new people and listen to their stories</h3>
+<h3 align="center">
+I am a 2nd year Engineering student majoring in Computer Science. Experimenting with Backend, computer vision, robotics. | love meeting new people and listening to their stories
+</h3>
 
 - 🌱 I’m currently learning **Golang**
 
