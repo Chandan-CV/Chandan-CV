@@ -13,7 +13,7 @@ I am a 2nd year Engineering student majoring in Computer Science. Experimenting 
 
 - ⚡ Fun fact **I am funny(I guess(I hope(god plz)))**
 
-###Github stats:
+### Github stats:
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=chandan-cv)](https://git.io/streak-stats)
 
