@@ -15,8 +15,7 @@ I am a 2nd year Engineering student majoring in Computer Science. Experimenting 
 
 ### Github stats:
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=chandan-cv)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://github-readme-streak-stats-xi-drab.vercel.app?user=Chandan-CV)](https://git.io/streak-stats)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
