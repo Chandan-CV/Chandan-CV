@@ -4,7 +4,7 @@ I am a 3rd year Engineering student majoring in Computer Science. Experimenting 
 </h3>
 
 - 🌱 I’m currently learning **Machine Learning and AI**
-- 
+
 - 💬 Ask me about **reactJS, react-native, java, python, flutter, and firebase, Svelte, TS, Go**
 
 - 📫 How to reach me **<chandancvp@gmail.com>**
