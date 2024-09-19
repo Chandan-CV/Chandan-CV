@@ -3,10 +3,8 @@
 I am a 3rd year Engineering student majoring in Computer Science. Experimenting with Backend, computer vision, robotics. | love meeting new people and listening to their stories
 </h3>
 
-- 🌱 I’m currently learning **Golang**
-
-- 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/chandan-cv-3320441b4/](https://www.linkedin.com/in/chandan-cv-3320441b4/)
-
+- 🌱 I’m currently learning **Machine Learning and AI**
+- 
 - 💬 Ask me about **reactJS, react-native, java, python, flutter, and firebase, Svelte, TS, Go**
 
 - 📫 How to reach me **<chandancvp@gmail.com>**
