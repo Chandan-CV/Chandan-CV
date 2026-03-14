@@ -1,0 +1,563 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.3/schema.json
+# cv:
+#   name: Chandan C V
+#   location: Location
+#   email: john.doe@example.com
+#   phone: +1-609-999-9995
+#   website:
+#   social_networks:
+#     - network: LinkedIn
+#       username: john.doe
+#     - network: GitHub
+#       username: john.doe
+#   sections:
+#     welcome_to_RenderCV!:
+#       - '[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.'
+#       - Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
+#     education:
+#       - institution: Stanford University
+#         area: Computer Science
+#         degree: PhD
+#         grade:
+#         date:
+#         start_date: 2023-09
+#         end_date: present
+#         location: Stanford, CA, USA
+#         summary:
+#         highlights:
+#           - Working on the optimization of autonomous vehicles in urban environments
+#       - institution: Boğaziçi University
+#         area: Computer Engineering
+#         degree: BS
+#         grade:
+#         date:
+#         start_date: 2018-09
+#         end_date: 2022-06
+#         location: Istanbul, Türkiye
+#         summary:
+#         highlights:
+#           - 'GPA: 3.9/4.0, ranked 1st out of 100 students'
+#           - 'Awards: Best Senior Project, High Honor'
+#     experience:
+#       - company: Company C
+#         position: Summer Intern
+#         date:
+#         start_date: 2024-06
+#         end_date: 2024-09
+#         location: Livingston, LA, USA
+#         summary:
+#         highlights:
+#           - Developed deep learning models for the detection of gravitational waves in LIGO data
+#           - Published [3 peer-reviewed research papers](https://example.com) about the project and results
+#       - company: Company B
+#         position: Summer Intern
+#         date:
+#         start_date: 2023-06
+#         end_date: 2023-09
+#         location: Ankara, Türkiye
+#         summary:
+#         highlights:
+#           - Optimized the production line by 15% by implementing a new scheduling algorithm
+#       - company: Company A
+#         position: Summer Intern
+#         date:
+#         start_date: 2022-06
+#         end_date: 2022-09
+#         location: Istanbul, Türkiye
+#         summary:
+#         highlights:
+#           - Designed an inventory management web application for a warehouse
+#     projects:
+#       - name: '[Example Project](https://example.com)'
+#         date:
+#         start_date: 2024-05
+#         end_date: present
+#         location:
+#         summary: A web application for writing essays
+#         highlights:
+#           - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
+#           - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
+#       - name: '[Teaching on Udemy](https://example.com)'
+#         date: Fall 2023
+#         start_date:
+#         end_date:
+#         location:
+#         summary:
+#         highlights:
+#           - Instructed the "Statistics" course on Udemy (60,000+ students, 200,000+ hours watched)
+#     skills:
+#       - label: Programming
+#         details: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
+#       - label: Mathematics
+#         details: Good understanding of differential equations, calculus, and linear algebra
+#       - label: Languages
+#         details: 'English (fluent, TOEFL: 118/120), Turkish (native)'
+#     publications:
+#       - title: 3D Finite Element Analysis of No-Insulation Coils
+#         authors:
+#           - Frodo Baggins
+#           - '***John Doe***'
+#           - Samwise Gamgee
+#         doi: 10.1109/TASC.2023.3340648
+#         url:
+#         journal:
+#         date: 2004-01
+#     extracurricular_activities:
+#       - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
+#       - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
+#     numbered_entries:
+#       - number: This is a numbered entry.
+#       - number: This is another numbered entry.
+#       - number: This is the third numbered entry.
+#     reversed_numbered_entries:
+#       - reversed_number: This is a reversed numbered entry.
+#       - reversed_number: This is another reversed numbered entry.
+#       - reversed_number: This is the third reversed numbered entry.
+#   sort_entries: none
+# design:
+#   theme: classic
+#   page:
+#     size: us-letter
+#     top_margin: 2cm
+#     bottom_margin: 2cm
+#     left_margin: 2cm
+#     right_margin: 2cm
+#     show_page_numbering: true
+#     show_last_updated_date: true
+#   colors:
+#     text: rgb(0, 0, 0)
+#     name: rgb(0, 79, 144)
+#     connections: rgb(0, 79, 144)
+#     section_titles: rgb(0, 79, 144)
+#     links: rgb(0, 79, 144)
+#     last_updated_date_and_page_numbering: rgb(128, 128, 128)
+#   text:
+#     font_family: Source Sans 3
+#     font_size: 10pt
+#     leading: 0.6em
+#     alignment: justified
+#     date_and_location_column_alignment: right
+#   links:
+#     underline: false
+#     use_external_link_icon: true
+#   header:
+#     name_font_family: Source Sans 3
+#     name_font_size: 30pt
+#     name_bold: true
+#     small_caps_for_name: false
+#     photo_width: 3.5cm
+#     vertical_space_between_name_and_connections: 0.7cm
+#     vertical_space_between_connections_and_first_section: 0.7cm
+#     horizontal_space_between_connections: 0.5cm
+#     connections_font_family: Source Sans 3
+#     separator_between_connections: ''
+#     use_icons_for_connections: true
+#     use_urls_as_placeholders_for_connections: false
+#     make_connections_links: true
+#     alignment: center
+#   section_titles:
+#     type: with-partial-line
+#     font_family: Source Sans 3
+#     font_size: 1.4em
+#     bold: true
+#     small_caps: false
+#     line_thickness: 0.5pt
+#     vertical_space_above: 0.5cm
+#     vertical_space_below: 0.3cm
+#   entries:
+#     date_and_location_width: 4.15cm
+#     left_and_right_margin: 0.2cm
+#     horizontal_space_between_columns: 0.1cm
+#     vertical_space_between_entries: 1.2em
+#     allow_page_break_in_sections: true
+#     allow_page_break_in_entries: true
+#     short_second_row: false
+#     show_time_spans_in: []
+#   highlights:
+#     bullet: •
+#     nested_bullet: '-'
+#     top_margin: 0.25cm
+#     left_margin: 0.4cm
+#     vertical_space_between_highlights: 0.25cm
+#     horizontal_space_between_bullet_and_highlight: 0.5em
+#     summary_left_margin: 0cm
+#   entry_types:
+#     one_line_entry:
+#       template: '**LABEL:** DETAILS'
+#     education_entry:
+#       main_column_first_row_template: '**INSTITUTION**, AREA'
+#       degree_column_template: '**DEGREE**'
+#       degree_column_width: 1cm
+#       main_column_second_row_template: |-
+#         SUMMARY
+#         HIGHLIGHTS
+#       date_and_location_column_template: |-
+#         LOCATION
+#         DATE
+#     normal_entry:
+#       main_column_first_row_template: '**NAME**'
+#       main_column_second_row_template: |-
+#         SUMMARY
+#         HIGHLIGHTS
+#       date_and_location_column_template: |-
+#         LOCATION
+#         DATE
+#     experience_entry:
+#       main_column_first_row_template: '**COMPANY**, POSITION'
+#       main_column_second_row_template: |-
+#         SUMMARY
+#         HIGHLIGHTS
+#       date_and_location_column_template: |-
+#         LOCATION
+#         DATE
+#     publication_entry:
+#       main_column_first_row_template: '**TITLE**'
+#       main_column_second_row_template: |-
+#         AUTHORS
+#         URL (JOURNAL)
+#       main_column_second_row_without_journal_template: |-
+#         AUTHORS
+#         URL
+#       main_column_second_row_without_url_template: |-
+#         AUTHORS
+#         JOURNAL
+#       date_and_location_column_template: DATE
+# locale:
+#   language: en
+#   phone_number_format: national
+#   page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+#   last_updated_date_template: Last updated in TODAY
+#   date_template: MONTH_ABBREVIATION YEAR
+#   month: month
+#   months: months
+#   year: year
+#   years: years
+#   present: present
+#   to: –
+#   abbreviations_for_months:
+#     - Jan
+#     - Feb
+#     - Mar
+#     - Apr
+#     - May
+#     - June
+#     - July
+#     - Aug
+#     - Sept
+#     - Oct
+#     - Nov
+#     - Dec
+#   full_names_of_months:
+#     - January
+#     - February
+#     - March
+#     - April
+#     - May
+#     - June
+#     - July
+#     - August
+#     - September
+#     - October
+#     - November
+#     - December
+
+cv:
+  name: "Chandan"
+  location: "Bangalore, India"
+  email: "chandancvp08@gmail.com"
+  phone: "+91 7676654906"
+  website: "https://iamchandan.vercel.app/"
+  social_networks:
+    - network: "LinkedIn"
+      username: "chandan-cv-3320441b4"
+    - network: "GitHub"
+      username: "Chandan-CV"
+  sections:
+    education:
+      - institution: "Manipal Institute of Technology"
+        location: "Bangalore"
+        area: "B.Tech in Computer Science and Engineering with Specialization in AI"
+        start_date: "2022-09"
+        end_date: "2026-05"
+        highlights:
+          - "Courses: Generative AI, Data Mining, Neural Networks and Deep Learning, Natural Language Processing, Pattern Recognition, Machine Learning, Data Structures, Algorithms, Database Management Systems, Object-Oriented Programming, Discrete Mathematics, Probability and Statistics, Linear Algebra, Calculus, Essentials of Management, Computer vision"
+    experience:
+      - company: "Airbus"
+        position: "Software Engineering Intern"
+        location: "Bangalore, India"
+        start_date: "2026-01"
+        end_date: "present"
+        highlights:
+          - "Architecting and scaling AI-Forge and CV-Forge, an enterprise no-code computer vision platform streamlining AI deployment for Airbus’s Final Assembly Lines and R&D divisions."
+          - "Added data persistance to improve UX on a pipeline based platform on CV-Forge"
+          - "Bought up the backend test coverage from 54% to 84% in 2 weeks"
+          - "Added support for events logging on CV-Forge to help the user read information a lot faster"
+          - "Integrated the new Multizone feature on CV-Forge, enabling users to create multiple zones of interest on their video feeds and get analytics for each zone separately"
+      
+      - company: "Segwise.ai"
+        position: "Software Engineering Intern"
+        location: "Bangalore, India"
+        start_date: "2025-06"
+        end_date: "2025-12"
+        highlights:
+          - "Architected and implemented an enterprise-grade User Access Management system with hierarchical inheritance structure, significantly enhancing security and client control."
+          - "Created a new Subscriptions feature enabling clients to get their reports and boards on their email or slack at their desired frequency."
+          - "Developed \"Fatigue Reports\" helping performance marketers identify fatiguiging creatives early on and take corrective actions."
+          - "Created an internal tool for our customer success team to help them manage customer data and run corrective ECS tasks when required."
+          - "Integrated Youtube and Google Display Network (GDN) data fetching for our clients helping them get analytics for these ads."
+          - "Created a competitor tool on our dashboard helping marketers get a feed of their competitor’s ads to get inspiration for their next campaigns."
+          - "Maintaining backend servers written in Golang and Python"
+          - "Handling deployments on AWS Fargate with end-to-end responsibility for features"
+      - company: "Andwemet"
+        position: "Software Development and Machine Learning Engineering Intern"
+        location: "Bangalore, India"
+        start_date: "2024-04"
+        end_date: "2024-10"
+        highlights:
+          - "Rebuilt the entire onboarding process, making it 3x faster than the previous one."
+          - "Created an ML recommendation engine to help 400+ people find matches only using google sheets"
+          - "Part of the  React Native Expo app team to make the app more accessible"
+          - "Built the community feature for the users to interact with each other to add another dimension to dating"
+          - "Integrated the backend (node) with the frontend (Expo React-Native)."
+          - "Built an admin dashboard to manage the posts and verify users using retool"
+      - company: "Footloose Labs"
+        position: "Robotics Intern"
+        location: "Bangalore, India"
+        start_date: "2024-05"
+        end_date: "2024-07"
+        highlights:
+          - "Building Nandi, an Autonomous Mobile Robot (AMR), used for hospital intralogistics"
+          - "Increases the efficiency and uptime of hospital intralogistics by 150%"
+          - "Worked on the project to control the local swarm using an Elastic Compute Cloud (EC2) instance"
+          - "Used REST APIs, Flask, Node, Linux, AWS Elastic Compute Cloud (EC2)"
+      - company: "Wellfyn"
+        position: "Backend Developer Intern"
+        location: "Bangalore, India"
+        start_date: "2023-05"
+        end_date: "2023-07"
+        highlights:
+          - "Increased Developer productivity by 2x by creating docs and OpenAPI Spec 3 for the APIs I developed"
+          - "Used Golang and Gin to build REST APIs"
+          - "Clean architecture to make the code scalable and readable. (used Repos, Usecases and Controllers)"
+          - "Used Testing frameworks like mockery and testify"
+      - company: "Cledge.org"
+        position: "Software Development Engineering Intern"
+        location: "Remote, Seattle, WA"
+        start_date: "2021-04"
+        end_date: "2022-12"
+        highlights:
+          - "Picked up by Microsoft for Startups"
+          - "Worked in Agile environment"
+          - "built custom backend to reduce the content upload time by 70%"
+    leadership experience:
+      - name: "Head @ Hack Solstice"
+        date: "2023-05"
+        highlights:
+          - "Organized the largest hackathon of college"
+          - "Directly managed 9 sponsors including Schneider Electric, Devfolio, Soloana, Replit and many more"
+          - "Received more than 750 applications"
+          - "Gained a Hackathon rating of 3.9 on devfolio."
+          - "built the [Hack Solstice website](https://hacksolstice.vercel.app/) using Next.js and Tailwind"
+      - name: "IT Head @ Falak, MIT Bengaluru"
+        date: "2023-05"
+        highlights:
+          - "Created the fest website in 2 weeks"
+          - "Streamlined concert pass verification using QR codes on phone"
+          - "Built and maintained the backend, payments and business data"
+          - "Built the [Falak website](https://falak-mitblr.vercel.app/) using Next.js and Firebase"
+      - name: "Head, OpenSource @ CodeX, MITBLR"
+        date: "2023-05"
+        highlights:
+          - "Largest club of college with 900+ members"
+          - "Conducted multiple workshops and competitions to help the community"
+    projects:
+      - name: "Signo"
+        date: "[Devfolio project page](https://devfolio.co/projects/signo-9244)"
+        highlights:
+          - "Helps dumb and deaf people communicate on video call by translating ASL to plain English and displaying it as subtitles in their video stream"
+          - "Tools Used: Python + Tensorflow + Keras + Mediapipe + kivy + opencv"
+          - "Achievements: Came 2nd in JIT Hacks, Bangalore"
+      - name: "Diarama"
+        date: "[diarama.ink](https://www.diarama.ink/)"
+        highlights:
+          - "Generate diagrams with AI"
+          - "Tools Used: Node + Gemini + NextJS + MongoDB + Tailwind"
+          - "Built for a video series Weekend builds: [ep 1](https://www.linkedin.com/posts/chandan-cv-3320441b4_webdev-computerscience-gemini-activity-7271385419609468928-eusd?utm_source=share&utm_medium=member_desktop)"
+          - "Currently building in public"
+      - name: "Turse"
+        date: "[Devfolio project page](https://devfolio.co/projects/ularn-3019)"
+        highlights:
+          - "The first learning platform that uses youtube as a content library and empowers users to create courses using youtube videos"
+          - "Won one of the biggest hackathons in India, Hack-a-nova"
+          - "Got recognition from the largest student community in India, BlueLearn"
+          - "Currently in alpha stage"
+          - "Built using NextJS, Firebase, MySQL, Prisma, and Railway."
+      - name: "Freelance projects"
+        highlights:
+          - "[ICRAFMN 2024](https://www.icrafmn2024.com/): built for Manipal University Jaipur | Svelte + Tailwind"
+          - "[Flashbakc](https://flashback-one.vercel.app/): built for Flashbakc | Vite + React, Supabase, Tailwind"
+          - "[Yoga With Manu](https://www.yogawithmanu.in) | Next.js + Tailwind"
+          - "[MAHE BLR MUN](https://www.maheblrmun.com/) built for MAHE BLR "
+    technologies:
+      - label: "Languages"
+        details: "Python, JavaScript, TypeScript, Dart, Golang, Java"
+      - label: "Web and Mobile Frameworks"
+        details: "React, Svelte, NextJS, Flutter, React-Native, Android Studio"
+      - label: "Cloud / Devops"
+        details: "Linux, Vercel, Amazon Web Services (AWS), Google Cloud Platform (GCP), Docker, Git, Github"
+      - label: "Databases"
+        details: "MySQL, Postgres, MongoDB, Firebase (Firestore), Supabase, SQLite"
+      - label: "Tools"
+        details: "NodeJS, Flask, Gin (Golang)"
+      - label: "BAAS / PaaS"
+        details: "Firebase, Supabase, Vercel, Heroku"
+design:
+  theme: "classic"
+  page:
+    size: "us-letter"
+    top_margin: "2cm"
+    bottom_margin: "2cm"
+    left_margin: "2cm"
+    right_margin: "2cm"
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: "rgb(0, 0, 0)"
+    name: "rgb(0, 79, 144)"
+    connections: "rgb(0, 79, 144)"
+    section_titles: "rgb(0, 79, 144)"
+    links: "rgb(0, 79, 144)"
+    last_updated_date_and_page_numbering: "rgb(128, 128, 128)"
+  text:
+    font_family: "Source Sans 3"
+    font_size: "10pt"
+    leading: "0.6em"
+    alignment: "justified"
+    date_and_location_column_alignment: "right"
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: "Source Sans 3"
+    name_font_size: "30pt"
+    name_bold: true
+    small_caps_for_name: false
+    photo_width: "3.5cm"
+    vertical_space_between_name_and_connections: "0.7cm"
+    vertical_space_between_connections_and_first_section: "0.7cm"
+    horizontal_space_between_connections: "0.5cm"
+    connections_font_family: "Source Sans 3"
+    separator_between_connections: ""
+    use_icons_for_connections: true
+    use_urls_as_placeholders_for_connections: false
+    make_connections_links: true
+    alignment: "center"
+  section_titles:
+    type: "with-partial-line"
+    font_family: "Source Sans 3"
+    font_size: "1.4em"
+    bold: true
+    small_caps: false
+    line_thickness: "0.5pt"
+    vertical_space_above: "0.5cm"
+    vertical_space_below: "0.3cm"
+  entries:
+    date_and_location_width: "4.15cm"
+    left_and_right_margin: "0.2cm"
+    horizontal_space_between_columns: "0.1cm"
+    vertical_space_between_entries: "1.2em"
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: "•"
+    nested_bullet: "-"
+    top_margin: "0.25cm"
+    left_margin: "0.4cm"
+    vertical_space_between_highlights: "0.25cm"
+    horizontal_space_between_bullet_and_highlight: "0.5em"
+    summary_left_margin: "0cm"
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, AREA"
+      degree_column_template: "**DEGREE**"
+      degree_column_width: "1cm"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: "**NAME**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: "**COMPANY**, POSITION"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: "DATE"
+locale:
+  language: "en"
+  phone_number_format: "national"
+  page_numbering_template: "NAME - Page PAGE_NUMBER of TOTAL_PAGES"
+  last_updated_date_template: "Last updated in TODAY"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  month: "month"
+  months: "months"
+  year: "year"
+  years: "years"
+  present: "present"
+  to: "–"
+  abbreviations_for_months:
+    - "Jan"
+    - "Feb"
+    - "Mar"
+    - "Apr"
+    - "May"
+    - "June"
+    - "July"
+    - "Aug"
+    - "Sept"
+    - "Oct"
+    - "Nov"
+    - "Dec"
+  full_names_of_months:
+    - "January"
+    - "February"
+    - "March"
+    - "April"
+    - "May"
+    - "June"
+    - "July"
+    - "August"
+    - "September"
+    - "October"
+    - "November"
+    - "December"
+rendercv_settings:
+  date: '2026-03-14'
+  bold_keywords: []
+  sort_entries: none
