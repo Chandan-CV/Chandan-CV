@@ -506,7 +506,7 @@ Sept 2022 – May 2026
     #strong[Airbus], Software Engineering Intern
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Architecting and scaling AI-Forge and CV-Forge, an enterprise no-code computer vision platform streamlining AI deployment for Airbus’s Final Assembly Lines and R&D divisions.],[Added data persistance to improve UX on a pipeline based platform on CV-Forge],[Bought up the backend test coverage from 54\% to 84\% in 2 weeks],[Added support for events logging on CV-Forge to help the user read information a lot faster],[Integrated the new Multizone feature on CV-Forge, enabling users to create multiple zones of interest on their video feeds and get analytics for each zone separately],)
+    #v(design-highlights-top-margin);#highlights([Architecting and scaling AI-Forge and CV-Forge, an enterprise no-code computer vision platform streamlining AI deployment for Airbus’s Final Assembly Lines and R&D divisions.],[Built CV Model Arena Feature end-to-end, enabling users to visually compare the detection capabilities of different computer vision models.],[Added data persistance to improve UX on a pipeline based platform on CV-Forge],[Bought up the backend test coverage from 54\% to 84\% in 2 weeks],[Added support for events logging on CV-Forge to help the user read information a lot faster],[Integrated the new Multizone feature on CV-Forge, enabling users to create multiple zones of interest on their video feeds and get analytics for each zone separately],)
   ],
   right-content: [
     Bangalore, India
