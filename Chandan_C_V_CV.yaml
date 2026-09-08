@@ -283,18 +283,26 @@ cv:
           - "Courses: Generative AI, Data Mining, Neural Networks and Deep Learning, Natural Language Processing, Pattern Recognition, Machine Learning, Data Structures, Algorithms, Database Management Systems, Object-Oriented Programming, Discrete Mathematics, Probability and Statistics, Linear Algebra, Calculus, Essentials of Management, Computer vision"
     experience:
       - company: "Airbus"
+        position: "Associate Systems Engineer"
+        location: "Bangalore, India"
+        start_date: "2026-07"
+        end_date: "present"
+        highlights:
+          - "Working on the Vendor Information Manual (VIM) to enable airlines resolve Aircraft on Ground (AOG) situations as quickly as possible."
+
+      - company: "Airbus"
         position: "Software Engineering Intern"
         location: "Bangalore, India"
         start_date: "2026-01"
-        end_date: "present"
+        end_date: "2026-07"
         highlights:
           - "Architecting and scaling AI-Forge and CV-Forge, an enterprise no-code computer vision platform streamlining AI deployment for Airbus’s Final Assembly Lines and R&D divisions."
-          - "Built CV Model Arena Feature end-to-end, enabling users to visually compare the detection capabilities of different computer vision models."
+          - "Own the CV Model Arena Feature, enabling users to visually compare the detection capabilities of different computer vision models."
           - "Added data persistance to improve UX on a pipeline based platform on CV-Forge"
           - "Bought up the backend test coverage from 54% to 84% in 2 weeks"
           - "Added support for events logging on CV-Forge to help the user read information a lot faster"
           - "Integrated the new Multizone feature on CV-Forge, enabling users to create multiple zones of interest on their video feeds and get analytics for each zone separately"
-      
+
       - company: "Segwise.ai"
         position: "Software Engineering Intern"
         location: "Bangalore, India"
@@ -331,47 +339,14 @@ cv:
           - "Increases the efficiency and uptime of hospital intralogistics by 150%"
           - "Worked on the project to control the local swarm using an Elastic Compute Cloud (EC2) instance"
           - "Used REST APIs, Flask, Node, Linux, AWS Elastic Compute Cloud (EC2)"
-      - company: "Wellfyn"
-        position: "Backend Developer Intern"
-        location: "Bangalore, India"
-        start_date: "2023-05"
-        end_date: "2023-07"
-        highlights:
-          - "Increased Developer productivity by 2x by creating docs and OpenAPI Spec 3 for the APIs I developed"
-          - "Used Golang and Gin to build REST APIs"
-          - "Clean architecture to make the code scalable and readable. (used Repos, Usecases and Controllers)"
-          - "Used Testing frameworks like mockery and testify"
-      - company: "Cledge.org"
-        position: "Software Development Engineering Intern"
-        location: "Remote, Seattle, WA"
-        start_date: "2021-04"
-        end_date: "2022-12"
-        highlights:
-          - "Picked up by Microsoft for Startups"
-          - "Worked in Agile environment"
-          - "built custom backend to reduce the content upload time by 70%"
-    leadership experience:
-      - name: "Head @ Hack Solstice"
-        date: "2023-05"
-        highlights:
-          - "Organized the largest hackathon of college"
-          - "Directly managed 9 sponsors including Schneider Electric, Devfolio, Soloana, Replit and many more"
-          - "Received more than 750 applications"
-          - "Gained a Hackathon rating of 3.9 on devfolio."
-          - "built the [Hack Solstice website](https://hacksolstice.vercel.app/) using Next.js and Tailwind"
-      - name: "IT Head @ Falak, MIT Bengaluru"
-        date: "2023-05"
-        highlights:
-          - "Created the fest website in 2 weeks"
-          - "Streamlined concert pass verification using QR codes on phone"
-          - "Built and maintained the backend, payments and business data"
-          - "Built the [Falak website](https://falak-mitblr.vercel.app/) using Next.js and Firebase"
-      - name: "Head, OpenSource @ CodeX, MITBLR"
-        date: "2023-05"
-        highlights:
-          - "Largest club of college with 900+ members"
-          - "Conducted multiple workshops and competitions to help the community"
     projects:
+      - name: "SIMS - Semantic Image Search for Android"
+        date: "[Build In public first video](https://www.instagram.com/reel/Da6LbhqzES6/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==)"
+        highlights:
+          - "Semantic Image Search for android using a CLIP Model (Apple's Mobile CLIP SO)"
+          - "On device inference using onnx and flutter"
+          - "Super fast search using Turso's inbuilt vector search"
+          - "MobileCLIP SO is quantized and ported to onnx runtime for it to be lightweight and on device inference"
       - name: "Signo"
         date: "[Devfolio project page](https://devfolio.co/projects/signo-9244)"
         highlights:
@@ -399,6 +374,27 @@ cv:
           - "[Flashbakc](https://flashback-one.vercel.app/): built for Flashbakc | Vite + React, Supabase, Tailwind"
           - "[Yoga With Manu](https://www.yogawithmanu.in) | Next.js + Tailwind"
           - "[MAHE BLR MUN](https://www.maheblrmun.com/) built for MAHE BLR "
+    leadership experience:
+      - name: "Head @ Hack Solstice"
+        date: "2023-05"
+        highlights:
+          - "Organized the largest hackathon of college"
+          - "Directly managed 9 sponsors including Schneider Electric, Devfolio, Soloana, Replit and many more"
+          - "Received more than 750 applications"
+          - "Gained a Hackathon rating of 3.9 on devfolio."
+          - "built the [Hack Solstice website](https://hacksolstice.vercel.app/) using Next.js and Tailwind"
+      - name: "IT Head @ Falak, MIT Bengaluru"
+        date: "2023-05"
+        highlights:
+          - "Created the fest website in 2 weeks"
+          - "Streamlined concert pass verification using QR codes on phone"
+          - "Built and maintained the backend, payments and business data"
+          - "Built the [Falak website](https://falak-mitblr.vercel.app/) using Next.js and Firebase"
+      - name: "Head, OpenSource @ CodeX, MITBLR"
+        date: "2023-05"
+        highlights:
+          - "Largest club of college with 900+ members"
+          - "Conducted multiple workshops and competitions to help the community"
     technologies:
       - label: "Languages"
         details: "Python, JavaScript, TypeScript, Dart, Golang, Java"

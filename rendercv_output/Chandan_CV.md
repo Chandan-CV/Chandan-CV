@@ -18,12 +18,18 @@
 
 # Experience
 
+## Airbus, Associate Systems Engineer
+
+- July 2026 – present
+- Bangalore, India
+- Working on the Vendor Information Manual (VIM) to enable airlines resolve Aircraft on Ground (AOG) situations as quickly as possible.
+
 ## Airbus, Software Engineering Intern
 
-- Jan 2026 – present
+- Jan 2026 – July 2026
 - Bangalore, India
 - Architecting and scaling AI-Forge and CV-Forge, an enterprise no-code computer vision platform streamlining AI deployment for Airbus’s Final Assembly Lines and R&D divisions.
-- Built CV Model Arena Feature end-to-end, enabling users to visually compare the detection capabilities of different computer vision models.
+- Own the CV Model Arena Feature, enabling users to visually compare the detection capabilities of different computer vision models.
 - Added data persistance to improve UX on a pipeline based platform on CV-Forge
 - Bought up the backend test coverage from 54% to 84% in 2 weeks
 - Added support for events logging on CV-Forge to help the user read information a lot faster
@@ -62,49 +68,15 @@
 - Worked on the project to control the local swarm using an Elastic Compute Cloud (EC2) instance
 - Used REST APIs, Flask, Node, Linux, AWS Elastic Compute Cloud (EC2)
 
-## Wellfyn, Backend Developer Intern
-
-- May 2023 – July 2023
-- Bangalore, India
-- Increased Developer productivity by 2x by creating docs and OpenAPI Spec 3 for the APIs I developed
-- Used Golang and Gin to build REST APIs
-- Clean architecture to make the code scalable and readable. (used Repos, Usecases and Controllers)
-- Used Testing frameworks like mockery and testify
-
-## Cledge.org, Software Development Engineering Intern
-
-- Apr 2021 – Dec 2022
-- Remote, Seattle, WA
-- Picked up by Microsoft for Startups
-- Worked in Agile environment
-- built custom backend to reduce the content upload time by 70%
-
-# Leadership Experience
-
-## Head @ Hack Solstice
-
-- May 2023
-- Organized the largest hackathon of college
-- Directly managed 9 sponsors including Schneider Electric, Devfolio, Soloana, Replit and many more
-- Received more than 750 applications
-- Gained a Hackathon rating of 3.9 on devfolio.
-- built the [Hack Solstice website](https://hacksolstice.vercel.app/) using Next.js and Tailwind
-
-## IT Head @ Falak, MIT Bengaluru
-
-- May 2023
-- Created the fest website in 2 weeks
-- Streamlined concert pass verification using QR codes on phone
-- Built and maintained the backend, payments and business data
-- Built the [Falak website](https://falak-mitblr.vercel.app/) using Next.js and Firebase
-
-## Head, OpenSource @ CodeX, MITBLR
-
-- May 2023
-- Largest club of college with 900+ members
-- Conducted multiple workshops and competitions to help the community
-
 # Projects
+
+## SIMS - Semantic Image Search for Android
+
+- [Build In public first video](https://www.instagram.com/reel/Da6LbhqzES6/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==)
+- Semantic Image Search for android using a CLIP Model (Apple's Mobile CLIP SO)
+- On device inference using onnx and flutter
+- Super fast search using Turso's inbuilt vector search
+- MobileCLIP SO is quantized and ported to onnx runtime for it to be lightweight and on device inference
 
 ## Signo
 
@@ -136,6 +108,31 @@
 - [Flashbakc](https://flashback-one.vercel.app/): built for Flashbakc | Vite + React, Supabase, Tailwind
 - [Yoga With Manu](https://www.yogawithmanu.in) | Next.js + Tailwind
 - [MAHE BLR MUN](https://www.maheblrmun.com/) built for MAHE BLR 
+
+# Leadership Experience
+
+## Head @ Hack Solstice
+
+- May 2023
+- Organized the largest hackathon of college
+- Directly managed 9 sponsors including Schneider Electric, Devfolio, Soloana, Replit and many more
+- Received more than 750 applications
+- Gained a Hackathon rating of 3.9 on devfolio.
+- built the [Hack Solstice website](https://hacksolstice.vercel.app/) using Next.js and Tailwind
+
+## IT Head @ Falak, MIT Bengaluru
+
+- May 2023
+- Created the fest website in 2 weeks
+- Streamlined concert pass verification using QR codes on phone
+- Built and maintained the backend, payments and business data
+- Built the [Falak website](https://falak-mitblr.vercel.app/) using Next.js and Firebase
+
+## Head, OpenSource @ CodeX, MITBLR
+
+- May 2023
+- Largest club of college with 900+ members
+- Conducted multiple workshops and competitions to help the community
 
 # Technologies
 

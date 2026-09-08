@@ -503,15 +503,30 @@ Sept 2022 – May 2026
 
 #two-col-entry(
   left-content: [
-    #strong[Airbus], Software Engineering Intern
+    #strong[Airbus], Associate Systems Engineer
     #v(-design-text-leading)
 
-    #v(design-highlights-top-margin);#highlights([Architecting and scaling AI-Forge and CV-Forge, an enterprise no-code computer vision platform streamlining AI deployment for Airbus’s Final Assembly Lines and R&D divisions.],[Built CV Model Arena Feature end-to-end, enabling users to visually compare the detection capabilities of different computer vision models.],[Added data persistance to improve UX on a pipeline based platform on CV-Forge],[Bought up the backend test coverage from 54\% to 84\% in 2 weeks],[Added support for events logging on CV-Forge to help the user read information a lot faster],[Integrated the new Multizone feature on CV-Forge, enabling users to create multiple zones of interest on their video feeds and get analytics for each zone separately],)
+    #v(design-highlights-top-margin);#highlights([Working on the Vendor Information Manual \(VIM\) to enable airlines resolve Aircraft on Ground \(AOG\) situations as quickly as possible.],)
   ],
   right-content: [
     Bangalore, India
 
-Jan 2026 – present
+July 2026 – present
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Airbus], Software Engineering Intern
+    #v(-design-text-leading)
+
+    #v(design-highlights-top-margin);#highlights([Architecting and scaling AI-Forge and CV-Forge, an enterprise no-code computer vision platform streamlining AI deployment for Airbus’s Final Assembly Lines and R&D divisions.],[Own the CV Model Arena Feature, enabling users to visually compare the detection capabilities of different computer vision models.],[Added data persistance to improve UX on a pipeline based platform on CV-Forge],[Bought up the backend test coverage from 54\% to 84\% in 2 weeks],[Added support for events logging on CV-Forge to help the user read information a lot faster],[Integrated the new Multizone feature on CV-Forge, enabling users to create multiple zones of interest on their video feeds and get analytics for each zone separately],)
+  ],
+  right-content: [
+    Bangalore, India
+
+Jan 2026 – July 2026
   ],
 )
 
@@ -560,90 +575,26 @@ May 2024 – July 2024
   ],
 )
 
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Wellfyn], Backend Developer Intern
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([Increased Developer productivity by 2x by creating docs and OpenAPI Spec 3 for the APIs I developed],[Used Golang and Gin to build REST APIs],[Clean architecture to make the code scalable and readable. \(used Repos, Usecases and Controllers\)],[Used Testing frameworks like mockery and testify],)
-  ],
-  right-content: [
-    Bangalore, India
-
-May 2023 – July 2023
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Cledge.org], Software Development Engineering Intern
-    #v(-design-text-leading)
-
-    #v(design-highlights-top-margin);#highlights([Picked up by Microsoft for Startups],[Worked in Agile environment],[built custom backend to reduce the content upload time by 70\%],)
-  ],
-  right-content: [
-    Remote, Seattle, WA
-
-Apr 2021 – Dec 2022
-  ],
-)
-
-
-
-== Leadership Experience
-
-
-#two-col-entry(
-  left-content: [
-    #strong[Head \@ Hack Solstice]
-  ],
-  right-content: [
-    May 2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Organized the largest hackathon of college],[Directly managed 9 sponsors including Schneider Electric, Devfolio, Soloana, Replit and many more],[Received more than 750 applications],[Gained a Hackathon rating of 3.9 on devfolio.],[built the #link("https://hacksolstice.vercel.app/")[Hack Solstice website] using Next.js and Tailwind],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[IT Head \@ Falak, MIT Bengaluru]
-  ],
-  right-content: [
-    May 2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Created the fest website in 2 weeks],[Streamlined concert pass verification using QR codes on phone],[Built and maintained the backend, payments and business data],[Built the #link("https://falak-mitblr.vercel.app/")[Falak website] using Next.js and Firebase],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Head, OpenSource \@ CodeX, MITBLR]
-  ],
-  right-content: [
-    May 2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Largest club of college with 900+ members],[Conducted multiple workshops and competitions to help the community],)
-  ],
-)
-
 
 
 == Projects
 
 
+#two-col-entry(
+  left-content: [
+    #strong[SIMS - Semantic Image Search for Android]
+  ],
+  right-content: [
+    #link("https://www.instagram.com/reel/Da6LbhqzES6/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==")[Build In public first video]
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Semantic Image Search for android using a CLIP Model \(Apple's Mobile CLIP SO\)],[On device inference using onnx and flutter],[Super fast search using Turso's inbuilt vector search],[MobileCLIP SO is quantized and ported to onnx runtime for it to be lightweight and on device inference],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[Signo]
@@ -696,6 +647,55 @@ Apr 2021 – Dec 2022
 
     #v(-design-text-leading)
     #v(design-highlights-top-margin);#highlights([#link("https://www.icrafmn2024.com/")[ICRAFMN 2024]: built for Manipal University Jaipur | Svelte + Tailwind],[#link("https://flashback-one.vercel.app/")[Flashbakc]: built for Flashbakc | Vite + React, Supabase, Tailwind],[#link("https://www.yogawithmanu.in")[Yoga With Manu] | Next.js + Tailwind],[#link("https://www.maheblrmun.com/")[MAHE BLR MUN] built for MAHE BLR ],)
+  ],
+)
+
+
+
+== Leadership Experience
+
+
+#two-col-entry(
+  left-content: [
+    #strong[Head \@ Hack Solstice]
+  ],
+  right-content: [
+    May 2023
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Organized the largest hackathon of college],[Directly managed 9 sponsors including Schneider Electric, Devfolio, Soloana, Replit and many more],[Received more than 750 applications],[Gained a Hackathon rating of 3.9 on devfolio.],[built the #link("https://hacksolstice.vercel.app/")[Hack Solstice website] using Next.js and Tailwind],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[IT Head \@ Falak, MIT Bengaluru]
+  ],
+  right-content: [
+    May 2023
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Created the fest website in 2 weeks],[Streamlined concert pass verification using QR codes on phone],[Built and maintained the backend, payments and business data],[Built the #link("https://falak-mitblr.vercel.app/")[Falak website] using Next.js and Firebase],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Head, OpenSource \@ CodeX, MITBLR]
+  ],
+  right-content: [
+    May 2023
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Largest club of college with 900+ members],[Conducted multiple workshops and competitions to help the community],)
   ],
 )
 
