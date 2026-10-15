@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Chandan</h1>
 <h3 align="center">
-I am a 3rd year Engineering student majoring in Computer Science. Experimenting with Machine Learning, LLMs, Backend, Computer Vision and Robotics. | love meeting new people and listening to their stories
+Associate Systems Engineer @ Airbus. Experimenting with Machine Learning, LLMs, Backend, Computer Vision and Robotics. | love meeting new people and listening to their stories
 </h3>
 
 - 🌱 I’m currently learning **Machine Learning and AI**
